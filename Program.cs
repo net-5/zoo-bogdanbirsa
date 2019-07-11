@@ -29,7 +29,6 @@ class Zoo
             Zoo.PresentZoo();
             Zoo.Transfer("maimutele");
             Zoo.PresentZoo();
-
         }
     }
     public Zoo(string name)
@@ -72,7 +71,7 @@ class Zoo
         }
         else
         {
-            Console.WriteLine("We don't have this animal in our garden.");
+            Console.WriteLine("Nu avem animale in gradina zoologica");
         }
     }
     public void PresentZoo()
